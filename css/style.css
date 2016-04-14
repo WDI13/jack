@@ -16,17 +16,24 @@ h3 {
 
 img {
   max-width: 100%;
-}
-
-.wolf-1 {
-  max-width: 50%;
-  margin: 0 auto;
+  display: inline-block;
 }
 
 .container {
   text-align: center;
 }
+.techno {
+  height: 100px;
+}
+.wolf-1 {
+  max-width: 35%;
+  margin: 0 auto;
+}
 
-#jack-1 {
-  max-width: 50%;
+#jack {
+  height: 300px;
+}
+
+#magnum {
+  height: 300px;
 }
