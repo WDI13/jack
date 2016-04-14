@@ -1,0 +1,66 @@
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: Helvetica, sans-serif;
+  color: gainsboro;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+h3 {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.container {
+  text-align: center;
+}
+.techno {
+  height: 100px;
+}
+.wolf-1 {
+  max-width: 35%;
+  margin: 0 auto;
+}
+#gainsboro {
+  height: 300px;
+  width: 300px;
+  background: gainsboro;
+  display: inline-block;
+  cursor: pointer;
+}
+#gainsboro:hover {
+  background: hotpink;
+  cursor: pointer;
+}
+.cuddles {
+  color: hotpink;
+}
+
+#jack {
+  height: 300px;
+  cursor: pointer;
+  transition: all 1s;
+}
+#jack:hover {
+  opacity: 0;
+}
+
+#magnum {
+  height: 300px;
+  cursor: pointer;
+  background: gainsboro;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+
+#magnum:hover {
+  mix-blend-mode: difference;
+}
