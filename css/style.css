@@ -26,3 +26,7 @@ img {
 .container {
   text-align: center;
 }
+
+#jack-1 {
+  max-width: 50%;
+}
