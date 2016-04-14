@@ -6,10 +6,22 @@ var divMove = function () {
   var newPos = oldPos - 1;
   var newPosStr = newPos + 'px';
   $('#moving-container').css( {'left' : newPosStr} );
-  if (newPos <= 50) {
+  if (newPos <= -2800) {
+      clearInterval(timerID);
+      timerID = setInterval(catWalk, 8);
+    }
+  };
+
+  var catWalk = function () {
+    var oldPos = parseInt($('#mainCat').css('left'));
+    console.log(oldPos);
+    var newPos = oldPos + 1;
+    var newPosStr = newPos + 'px';
+    $('#mainCat').css( {'left' : newPosStr });
+    if (newPos > 1500 ) {
       clearInterval(timerID);
     }
   };
 
-var timerID = setInterval(divMove, 30);
+var timerID = setInterval(divMove, 20);
 });

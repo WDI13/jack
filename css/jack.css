@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
 body {
   background-image: url('../assets/jack.gif');
   height: 100vh;
@@ -7,29 +9,37 @@ body {
   background-color: hotpink;
 }
 
+#container {
+  width: 5000px;
+}
+
 .pic {
   max-height: 90px;
-  display: inline-block;
+  margin-right: 5px;
 }
 
 .message {
-  display: inline-block;
+  /*display: block;*/
+  margin: 0;
 }
 
 #moving-container {
-  width: 2000px;
-  left: 500px;
+  width: 5000px;
+  left: 1300px;
   position: relative;
+  display: flex;
 }
 
 .mid-container {
-  width: 500px;
+  width: 600px;
 }
 
 .student {
   margin: 10px;
   background-color: gainsboro;
-  max-width: 400px;
+  opacity: 0.9;
+  max-width: 600px;
+  display: flex;
 }
 
 #student1 {
@@ -72,4 +82,125 @@ body {
   left: 250px;
   max-height: 90px;
   border: 5px solid gainsboro;
+}
+
+#student7 {
+  position: relative;
+  left: 50px;
+  max-height: 90px;
+  border: 5px solid gainsboro;
+}
+
+#student8 {
+  position: relative;
+  left: 250px;
+  max-height: 90px;
+  border: 5px solid gainsboro;
+}
+
+#student9 {
+  position: relative;
+  left: 50px;
+  max-height: 90px;
+  border: 5px solid gainsboro;
+}
+
+#student10 {
+  position: relative;
+  left: 250px;
+  max-height: 90px;
+  border: 5px solid gainsboro;
+}
+
+#student11 {
+  position: relative;
+  left: 50px;
+  max-height: 90px;
+  border: 5px solid gainsboro;
+}
+
+#student12 {
+  position: relative;
+  left: 250px;
+  max-height: 90px;
+  border: 5px solid gainsboro;
+}
+
+#student13 {
+  position: relative;
+  left: 50px;
+  max-height: 90px;
+  border: 5px solid gainsboro;
+}
+
+#student14 {
+  position: relative;
+  left: 250px;
+  max-height: 90px;
+  border: 5px solid gainsboro;
+}
+
+#student15 {
+  position: relative;
+  left: 50px;
+  max-height: 90px;
+  border: 5px solid gainsboro;
+}
+
+#student16 {
+  position: relative;
+  left: 250px;
+  max-height: 90px;
+  border: 5px solid gainsboro;
+}
+
+#student17 {
+  position: relative;
+  left: 50px;
+  max-height: 90px;
+  border: 5px solid gainsboro;
+}
+
+#student18 {
+  position: relative;
+  left: 250px;
+  max-height: 90px;
+  border: 5px solid gainsboro;
+}
+
+#student19 {
+  position: relative;
+  left: 50px;
+  max-height: 90px;
+  border: 5px solid gainsboro;
+}
+
+#student20 {
+  position: relative;
+  left: 250px;
+  max-height: 90px;
+  border: 5px solid gainsboro;
+}
+
+#student21 {
+  position: relative;
+  left: 50px;
+  max-height: 90px;
+  border: 5px solid gainsboro;
+}
+
+#student22 {
+  position: relative;
+  left: 250px;
+  max-height: 90px;
+  border: 5px solid gainsboro;
+}
+
+.name {
+  font-family: 'Indie Flower', cursive;
+}
+
+#mainCat {
+  left: -270px;
+  position: absolute;
 }
