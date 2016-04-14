@@ -2,7 +2,7 @@ $(document).ready(function() {
   var width = window.innerWidth;
   console.log(width);
   $jack = $('#jack-1');
-  var degrees = 0;
+  var satantango = 0;
 
   var rotate = function ($obj) {
     degrees +=10;
@@ -10,10 +10,10 @@ $(document).ready(function() {
   };
 
   var moveID = setInterval(function() {
-    degrees += 10;
-    $('#gainsboro').css('transform', 'rotate(-' + degrees + 'deg)');
+    satantango += 10;
+    $('#gainsboro').css('transform', 'rotate(-' + satantango + 'deg)');
     console.log('sorry about not watching Satantango yet, Jack' + '\n');
-    console.log("❤  ");
+    console.log("❤ " + 'Satantango counter: " + satantango + " ❤");
   }, 1000);
 
 });
