@@ -1,14 +1,17 @@
 body {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   font-family: Helvetica, sans-serif;
   color: gainsboro;
-  font-size: 3em;
 }
 
 h1 {
   text-align: center;
+  font-size: 3em;
+}
 
+h3 {
+  text-align: center;
 }
 
 img {
@@ -18,4 +21,8 @@ img {
 .wolf-1 {
   max-width: 50%;
   margin: 0 auto;
+}
+
+.container {
+  text-align: center;
 }
