@@ -10,6 +10,7 @@ $(document).ready(function() {
   };
 
   var moveID = setInterval(function() {
-    rotate($jack);
+    degrees += 10;
+    $('#gainsboro').css('transform', 'rotate(-' + degrees + 'deg)');
   }, 100);
 });

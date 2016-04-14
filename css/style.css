@@ -29,11 +29,35 @@ img {
   max-width: 35%;
   margin: 0 auto;
 }
+#gainsboro {
+  height: 300px;
+  width: 300px;
+  background: gainsboro;
+  display: inline-block;
+  cursor: pointer;
+}
+#gainsboro:hover {
+  background: hotpink;
+  cursor: pointer;
+}
 
 #jack {
   height: 300px;
+  cursor: pointer;
+  transition: all 1s;
+}
+#jack:hover {
+  opacity: 0;
 }
 
 #magnum {
   height: 300px;
+  cursor: pointer;
+  background: gainsboro;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+
+#magnum:hover {
+  mix-blend-mode: difference;
 }
