@@ -1,0 +1,21 @@
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Helvetica, sans-serif;
+  color: gainsboro;
+  font-size: 3em;
+}
+
+h1 {
+  text-align: center;
+
+}
+
+img {
+  max-width: 100%;
+}
+
+.wolf-1 {
+  max-width: 50%;
+  margin: 0 auto;
+}
