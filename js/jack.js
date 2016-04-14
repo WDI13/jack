@@ -12,5 +12,8 @@ $(document).ready(function() {
   var moveID = setInterval(function() {
     degrees += 10;
     $('#gainsboro').css('transform', 'rotate(-' + degrees + 'deg)');
-  }, 100);
+    console.log('sorry about not watching Satantango yet, Jack' + '\n');
+    console.log("❤  ");
+  }, 1000);
+
 });
