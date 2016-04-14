@@ -40,6 +40,9 @@ img {
   background: hotpink;
   cursor: pointer;
 }
+.cuddles {
+  color: hotpink;
+}
 
 #jack {
   height: 300px;
