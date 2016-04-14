@@ -1,0 +1,75 @@
+body {
+  background-image: url('../assets/jack.gif');
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: hotpink;
+}
+
+.pic {
+  max-height: 90px;
+  display: inline-block;
+}
+
+.message {
+  display: inline-block;
+}
+
+#moving-container {
+  width: 2000px;
+  left: 500px;
+  position: relative;
+}
+
+.mid-container {
+  width: 500px;
+}
+
+.student {
+  margin: 10px;
+  background-color: gainsboro;
+  max-width: 400px;
+}
+
+#student1 {
+  position: relative;
+  left: 50px;
+  max-height: 90px;
+  border: 5px solid gainsboro;
+}
+
+#student2 {
+  position: relative;
+  left: 250px;
+  max-height: 90px;
+  border: 5px solid gainsboro;
+}
+
+#student3 {
+  position: relative;
+  left: 50px;
+  max-height: 90px;
+  border: 5px solid gainsboro;
+}
+
+#student4 {
+  position: relative;
+  left: 250px;
+  max-height: 90px;
+  border: 5px solid gainsboro;
+}
+
+#student5 {
+  position: relative;
+  left: 50px;
+  max-height: 90px;
+  border: 5px solid gainsboro;
+}
+
+#student6 {
+  position: relative;
+  left: 250px;
+  max-height: 90px;
+  border: 5px solid gainsboro;
+}
