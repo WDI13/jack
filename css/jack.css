@@ -7,6 +7,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-color: hotpink;
+  font-family: courier;
 }
 
 #container {
@@ -203,4 +204,12 @@ body {
 #mainCat {
   left: -270px;
   position: absolute;
+}
+
+#deadCat {
+  left: 1400px;
+  position: absolute;
+  width: 700px;
+  top: 150px;
+  opacity: 1;
 }
