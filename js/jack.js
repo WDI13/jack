@@ -13,7 +13,7 @@ $(document).ready(function() {
     satantango += 10;
     $('#gainsboro').css('transform', 'rotate(-' + satantango + 'deg)');
     console.log('sorry about not watching Satantango yet, Jack' + '\n');
-    console.log("❤ " + 'Satantango counter: " + satantango + " ❤");
+    console.log("❤ " + "Satantango counter: " + satantango + " ❤");
   }, 1000);
 
 });
